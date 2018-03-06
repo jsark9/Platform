@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { padding: 0; margin: 0; border: 0; font-family:"Avenir Next Bold"; } 
+	
+.nav {
+  height: 50px;
+  background-color: #ffffff;
+  padding: 15px 50px 0px 10px;
+}
+
+.nav img{
+	height:30px;
+	}
+	
+a{text-decoration:none;
+}
+
+a:hover{color:rgba(42,174,240,1.00);}
+
+.nav a{
+
+font-size:24px;
+padding-left:20px;
+color:rgba(0,0,0,1.00);}
+
+  
+  .coverpage{
+	  width: 1440px;
+	height: 600px;
+	background:rgba(0,0,0,1.00);
+	  
+	  }
+  .coverpage1{
+	  background-image:url(../img/Home%20background1.png);
+	  background-size:cover;}
+
+.coverpage2{
+	background-image:url(../img/HOME_BACKGROUND2.png);
+	background-size:cover;}
+	  
+  .cover_Text{
+	    width: 600px;
+  height: 96px;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding:50px 50px 0 50px;
+	  }
+
+  .button_requestDemo{
+	   width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #df925e;
+  margin-left:50px;
+  color:rgba(255,255,255,1.00);
+  font-size:20px;
+  margin-top:20px;
+  
+  
+	  }
+  .button_learnMore{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #df925e;
+  color:rgba(255,255,255,1.00);
+  font-size:14px;
+  
+ }
+ 
+ .button_sendRequest{
+	 
+	  width: 250px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #df925e;
+  color:rgba(255,255,255,1.00);
+  font-size:14px;
+  
+  margin-left:80px;
+  margin-top:20px;
+	 }
+
+button:hover{
+	background:rgba(21,124,207,1.00);}
+  
+  .pic_and_text{
+	  width: 1440px;
+	  height:850px;
+}
+
+.placeholder{
+	width:550px;
+	height:200px;
+
+	display:inline;
+	}
+.placeholder img{
+	width:500px;
+	border-radius: 5px;
+}
+.placeholder_left{
+	margin: 60px 20px 0 120px;
+	}
+.placeholder_right{
+	margin: 60px 120px 0 20px;
+	}
+	  
+ .video_intro{
+	 background:rgba(0,140,197,1.00);
+	 color:#FFFFFF;
+	 height:370PX;
+ }
+ .container_WACE{
+	 height: 450px;
+	
+  background-color: #238bc0;
+	 }
+
+.WACE_ICON{display: inline;}
+.WACE_ICON_COMBINE{
+	width:1000PX;}
+
+.container_WACE h1 {
+	font-size:36px;
+	color:#FFFFFF;
+	padding:30px;
+	}
+
+.WACE_TEXT{
+	font-size:20px;
+	color:#FFFFFF;
+	width:auto;
+	margin:10px
+	}
+ .WACE_ICON img{
+	 height:100px;
+	 margin:10px 60px 60px 60px;
+	
+	 }
+  .student_profile{
+
+  height: 400px;
+  background-color: #238bc0;
+}
+
+.why_Rezzio{
+
+  height: 400px;
+  background-color:fff;}
+  
+.student_profile p{
+	font-size:36px;
+	color:#FFFFFF;
+	padding:30px;
+	}
+	
+.why_Rezzio p{
+	font-size:36px;
+	padding:30px;
+	font-family:"Avenir Next Bold";
+	}
+
+.container_student{
+	width:1100px;
+	height:250px;
+	
+	}
+
+
+  .student_content{
+	  width: 480px;
+	  height:250px;
+
+	  }
+ .student_content p {
+	 width:auto;
+	 font-size:14px;
+	 padding:10px;
+	 align-content:center;}
+
+.portrait_holder{
+	height:100px;
+	width:auto;
+	}
+	
+.portrait_holder img{
+	height:90px;
+}
+ 
+.icon_holder{
+	height:100px;
+	width:auto;
+	} 
+
+.icon_holder img{
+	height:90px;
+	}
+
+
+  .footer{ 
+  height: 90px;
+  color: #000000;}
+  
+  .footer table{
+	  margin:20px;
+  }
+  .footer td{
+	 
+	 
+	  text-align:left;
+	  width:250px;
+	  }
+
+  .footer a{
+	  padding:0;
+	  color:rgba(0,0,0,1.00);
+	 }
+
+.footer_nav{
+	width:600px;
+	font-size:20px;
+	}
+
+.footer_contact{
+	width:200px;
+	font-size:20px;
+	}
+
+.footer_contact img{width:100px;}
+
+/* demon request page*/
+
+.container_demoRequest{
+	   width: 1440px;
+	   height:760px;
+	   background:rgba(35,139,192,1.00);
+	  }
+	  
+.demo_intro{
+	width:550px;
+	height:600px;
+	margin:50px 70px 50px 80px;
+	color:#fff;
+	}
+
+.demo_intro h1{
+	font-size:36px;
+	margin-bottom:50px;
+}
+
+.demo_infoEnter{
+	border-radius: 5px;
+	width:400px;
+	height:500px;
+	background:#fff;
+	margin:50px 70px 50px 80px;
+	padding:40px;
+
+	}
+.form_infoEnter{
+	width:400px;
+	height:500px;
+	}
+.demo_infoEnter table{
+	border-collapse:separate;
+	border-spacing:0 30px;}
+.demo_infoEnter thead{
+	font-size:100px;
+	}
+
+.demo_infoEnter input{
+	 width: 400px;
+  height: 50px;
+  font-size:24px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+  }
+
+
+
+/* Alignment */
+.alignleft {
+ display: inline;
+ float: left;
+}
+.alignright {
+ display: inline;
+ float: right;
+}
+.aligncenter {
+ clear: both;
+ display: block;
+ margin:auto;
+}		
+
