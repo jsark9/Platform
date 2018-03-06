@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* { padding: 0; margin: 0; border: 0; font-family:"Avenir Next Bold"; } 
+@font-face{
+    font-family:"Avenir Next";
+	src:url(../font/AvenirNextLTPro-It.otf);
+}
+
+* { padding: 0; margin: 0; border: 0; font-family:"Avenir Next";} 
 	
 .nav {
   height: 50px;
@@ -66,6 +71,8 @@ color:rgba(0,0,0,1.00);}
   
   
 	  }
+.button_requestDemo a{
+	color:#fff;}
   .button_learnMore{
   width: 150px;
   height: 30px;
@@ -120,15 +127,15 @@ button:hover{
 	 height:370PX;
  }
  .container_WACE{
-	 height: 450px;
+	 height: 500px;
 	
   background-color: #238bc0;
 	 }
 
 .WACE_ICON{display: inline;}
 .WACE_ICON_COMBINE{
-	width:1000PX;}
-
+	width:1100PX;}
+	
 .container_WACE h1 {
 	font-size:36px;
 	color:#FFFFFF;
@@ -143,7 +150,7 @@ button:hover{
 	}
  .WACE_ICON img{
 	 height:100px;
-	 margin:10px 60px 60px 60px;
+	 margin:60px 70px 80px 70px;
 	
 	 }
   .student_profile{
