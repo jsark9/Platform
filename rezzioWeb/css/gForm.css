@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin:0px;padding:0px;}
+
+th{background-color:rgba(247,247,247,1.00);
+font-size:15px;}
+
+tr{font-size:10px;}
+
+p{font-size:8px;
+color:rgba(130,130,130,1.00);}
+
+.background-picture{
+
+	background: url(../imgs/forms_background.png);
+	  width: 1440px;
+	height: 880px;
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+	
+	display:flex;
+    display: -webkit-flex; 
+    align-items:center;
+}
+
+.container_main{
+	
+	width: 922px;
+	height: 772px;
+	border-radius: 4px;
+	background-color: #ecebf0;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 6px 0 rgba(0, 0, 0, 0.22);
+}
+
+
+.container_banner{
+	width:auto;
+	height:200px;
+	background-color:rgba(36,160,213,1.00)}
+	
+
+.span6{
+display: inline-block; 
+width:200px;
+}
+
+
+/* Alignment */
+.alignleft {
+ display: inline;
+ float: left;
+}
+.alignright {
+ display: inline;
+ float: right;
+}
+.aligncenter {
+ clear: both;
+ display: block;
+ margin:auto;
+}		
+
+/*Bootstrap */
+.row-fluid .span6 {
+  width: 30.93617021276595%;
+  *width: 48.88297872340425%;
+}
+
+
+
+.row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+  clear: both;
+ 
+}
+.row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+

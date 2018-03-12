@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.backgroud_pic{
+	width: 1435px;
+	height: 1020px;
+	opacity: 0.4;
+	background-color: #000000;
+}
+
+.container_top{
+	width: 922px;
+	height: 772px;
+	border-radius: 4px;
+	background-color: #ecebf0;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 6px 0 rgba(0, 0, 0, 0.22);
+}
+
+.container_education{
+	width: 316px;
+	height: 484px;
+	background-color: #ffffff;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+}
+
+.high_school{
+	
+	}
+
+.college{
+	}
+
+.container_banner {
+	width: 922px;
+	height: 230px;
+	border-radius: 4px;
+	background-color: #25ade6;
+}
+
+.map-material {
+	width: 80px;
+	height: 89.5px;
+	background-color: rgba(255, 255, 255, 0.87);
+}
+
+.add-your-education-e {
+	width: 615.8px;
+	height: 29px;
+	font-family: Helvetica;
+	font-size: 24px;
+	text-align: left;
+	color: #ffffff;
+}
+.rectangle {
+	width: 124px;
+	height: 29px;
+	border-radius: 100px;
+	border: solid 2px #ffffff;
+}
+
+.help {
+	width: 53px;
+	height: 24px;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: left;
+	color: #ffffff;
+}
+
+
+/* Alignment */
+.alignleft {
+ display: inline;
+ float: left;
+}
+.alignright {
+ display: inline;
+ float: right;
+}
+.aligncenter {
+ clear: both;
+ display: block;
+ margin:auto;
+}

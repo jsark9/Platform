@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<title>testJS</title>
+<style type="text/css">
+@import url("css/bootstrap.css");
+@import url("css/gForm1.css");
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>演示：jQuery弹出窗口切换登录与注册表单</title>
+<meta name="keywords" content="jquery,注册" />
+<meta name="description" content="Helloweba文章结合实例演示HTML5、CSS3、jquery、PHP等WEB技术应用。" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</style>
+</head>
+
+<body>
+<div class="background_picture">
+  
+    
+ 
+  <div class="container_main container_main_size2 aligncenter">
+
+    <div class="container_form container_form_size2">
+      <div class="form form_size2">
+        <table class="table table-hover">
+				<thead>
+					<tr>
+						<th><a class="cd-signin" href="#0">High School</a> 
+                        <div class="cd-user-modal"> 
+		<div class="cd-user-modal-container">
+			<ul class="cd-switcher">
+				<li><a href="#0">High School</a></li>
+				<li><a href="#0">College/University</a></li>
+			</ul>
+            
+           <div id="cd-login"> <!-- 登录表单 -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signin-username">用户名</label>
+						<input class="full-width has-padding has-border" id="signin-username" type="text" placeholder="输入用户名">
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">密码</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="输入密码">
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">记住登录状态</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width2" type="submit" value="登 录">
+					</p>
+				</form>
+			</div>
+
+			<div id="cd-signup"> <!-- 注册表单 -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">用户名</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="输入用户名">
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">邮箱</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="输入mail">
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">密码</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="输入密码">
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">我已阅读并同意 <a href="#0">用户协议</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width2" type="submit" value="注册新用户">
+					</p>
+				</form>
+			</div>
+
+			<a href="#0" class="cd-close-form">关闭</a>
+		</div>
+        </div>
+        
+
+					    <p >Add your High School </p> </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr >
+						<td>
+							 <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Website
+						</td>
+					</tr>
+					<tr >
+						<td>
+                        <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Zip Code
+							
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;GPA/SAT
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Graduation Date
+						</td>
+					</tr>
+                    <tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Goals
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <p>See more</p>
+            <div class="progress">
+                
+				<div class="bar">
+				</div>
+			</div>
+
+      </div>
+      <div class="form form_size2 alignright">
+      <table class="table table-hover">
+				<thead>
+					<tr>
+						<th><a class="eduinfo_U" href="#0"> College/University </a>
+					    <p>Add your College/University</p></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Sub School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Major
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;GPA
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Graduation Date
+						</td>
+					</tr>
+                   <tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Goals
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <p>See more</p>
+             <div class="progress">
+             
+				<div class="bar">
+				</div>
+			</div>
+      </div>
+    </div>
+    <div class="container_banner container_banner_edu">
+     <div class=" banner_text aligncenter" >Add your Education Experience</div>
+     <span class="alignright"><button type="button" class="btn banner_button"> HELP</button></span>
+    </div>
+  </div>
+     <a href="workWxpPage.html">
+          <div class="glyphicon glyphicon-circle-arrow-right arrows"></div>
+        </a>
+        
+        
+		
+
+	</div> 
+	
+ 
+	
+	
+
+
+
+</body>
+</html>
