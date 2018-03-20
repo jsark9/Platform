@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<title>Rezzio_EduExp</title>
+<style type="text/css">
+@import url("css/gForm1.css");
+<script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
+
+</style>
+
+<script>
+
+//POPUP
+$("#open-HS").click(function() {
+$("#popup-form-HS").removeClass("hidden");
+$("#popup-form-HS").addClass("show");});
+
+//SHUT DOWN
+$("Submit").click(function() {
+$("#popup-form-HS").removeClass("show");
+$("#popup-form-HS").addClass("hidden");
+});
+
+
+</script>
+
+</head>
+
+<script src="js/Rezzio_Onboarding.js"></script>
+
+<body>
+  <div class="hidden" id="popup-form-HS">
+  <div class="container_popform">
+   <div class="form_Name">Work Experience</div>
+  <div>
+     <label class="form_subName_small">Company</label>
+     <input class="one_in_a_row form-control" type="text" placeholder="Enter your company name">
+  </div>
+  <div>
+     <label class="form_subName_small">Title</label>
+     <input class="one_in_a_row" type="text" placeholder="Manager">
+  </div>
+  <div>
+     <label class="form_subName_small">City/Sate</label>
+     <input class="one_in_a_row" type="text" placeholder=" Street, State, Zip">
+   </div> 
+   <div>
+      <div class="alignleft">
+        <label class="form_subName_small">Start Date</label><br>
+        <input class="two_in_a_row" type="text" placeholder="mm/dd/yyyy">
+      </div>
+      <div class=" alignright">
+         <label class="form_subName_small">End Date</label><br>
+         <input class="two_in_a_row" type="text" placeholder="mm/dd/yyyy">
+      </div>
+   </div>
+   <div>
+       <label class="form_subName_large">Responsibilities</label>
+       <input class="one_in_a_row" type="text" placeholder="List your responsibilities">
+       <input class="one_in_a_row" type="text" placeholder="List your responsibilities">
+       <input class="one_in_a_row" type="text" placeholder="List your responsibilities">
+   </div>
+   
+    <div>
+       <label class="form_subName_large">Skills Gained</label>
+       <table>
+         <tbody>
+         <tr>
+           <td><input class="two_in_a_row" type="text" placeholder="Soft Skill"></td>
+             <td><input class="two_in_a_row" type="text" placeholder="Hard Skill"></td>
+         </tr>
+        <tr>
+           <td><input class="two_in_a_row" type="text" placeholder="Soft Skill"></td>
+             <td><input class="two_in_a_row" type="text" placeholder="Hard Skill"></td>
+         </tr>
+          <tr>
+           <td><input class="two_in_a_row" type="text" placeholder="Soft Skill"></td>
+             <td><input class="two_in_a_row" type="text" placeholder="Hard Skill"></td>
+         </tr>
+         </tbody>
+         </table>
+         <button id="Submit">submit</button>
+         </div>
+         
+</div>
+</div>
+
+<div class="background_picture" >
+  
+    
+
+  <div class="container_main container_main_size2 aligncenter">
+
+    <div class="container_form container_form_size2">
+      <div class="form form_size2">
+        <table class="table table-hover">
+				<thead>
+					<tr>
+						<th ><a class="eduinfo_U" href="#0" id="open-HS">High School</a>
+					    <p >Add your High School </p> </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr >
+						<td>
+							 <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Website
+						</td>
+					</tr>
+					<tr >
+						<td>
+                        <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Zip Code
+							
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;GPA/SAT
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Graduation Date
+						</td>
+					</tr>
+                    <tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Goals
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <p>See more</p>
+            <div class="progress">
+                
+				<div class="bar">
+				</div>
+			</div>
+
+      </div>
+      <div class="form form_size2 alignright">
+      <table class="table table-hover">
+				<thead>
+					<tr>
+						<th><a class="eduinfo_U" href="#0"> College/University </a>
+					    <p>Add your College/University</p></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Sub School Name
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Major
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;GPA
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Graduation Date
+						</td>
+					</tr>
+                   <tr >
+						<td>
+							<span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp;Goals
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <p>See more</p>
+             <div class="progress">
+             
+				<div class="bar">
+				</div>
+			</div>
+      </div>
+    </div>
+    <div class="container_banner container_banner_edu">
+     <div class=" banner_text aligncenter" >Add your Education Experience</div>
+     <span class="alignright"><button type="button" class="btn banner_button"> HELP</button></span>
+    </div>
+  </div>
+     <a href="workWxpPage.html">
+          <div class="glyphicon glyphicon-circle-arrow-right arrows"></div>
+        </a>
+       	
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
